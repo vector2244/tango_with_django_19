@@ -1,0 +1,25 @@
+{% extends 'rango/base.html' %}
+{% load staticfiles %}
+
+{% block title_block %}
+    about
+{% endblock %}
+    
+{% block body_block %}
+<h1>ABOUT!!</h1>
+<dev> 
+    <p>This tutorial has been put togather by Vector</p>
+</dev>
+    <button class="btn btn-primary"
+        onclick="alart('You clicked the button using JavaScript.');">
+        Click Me - I run JavaScript
+    </button>
+    <button class="btn btn-primary" id="about-btn">
+        Click ME - I'm JavaScript on speed
+    </button>
+    <p>This is a example</p>
+    <p>This is another example</p>
+    <img src="{% static "images/img.png" %}" alt="Picture of pink floyd" /><!-- New line -->
+    
+</div>
+{% endblock %}
